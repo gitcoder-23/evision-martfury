@@ -4,3 +4,6 @@
 // config
 lib/core/app_config.dart
 env
+
+// Figma
+https://www.figma.com/design/pQcc3qLmxWiMLRBPfFhiYV/eVision?node-id=0-1&p=f
