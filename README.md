@@ -47,7 +47,7 @@ Create a `.env` file in the root directory based on the `.env.example` template:
 ```
 # API Configuration
 API_BASE_URL=https://your-botble-ecommerce-api.com
-APP_NAME=MartFury
+APP_NAME=Evision
 APP_ENV=development
 TEST_EMAIL=your-test-email@example.com
 TEST_PASSWORD=your-test-password

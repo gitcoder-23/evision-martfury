@@ -37,7 +37,7 @@ import FirebaseMessaging
   
   override func application(_ application: UIApplication,
                           didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-    print("📱 APNs device token received: \(deviceToken.map { String(format: "%02.2hhx", $0) }.joined())")
+    print("APNs device token received: \(deviceToken.map { String(format: "%02.2hhx", $0) }.joined())")
     
     // Pass device token to Firebase
     Messaging.messaging().apnsToken = deviceToken
@@ -46,7 +46,7 @@ import FirebaseMessaging
   
   override func application(_ application: UIApplication,
                           didFailToRegisterForRemoteNotificationsWithError error: Error) {
-    print("❌ Failed to register for remote notifications: \(error)")
+    print("Failed to register for remote notifications: \(error)")
   }
 }
 

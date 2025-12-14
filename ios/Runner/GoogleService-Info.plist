@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>YOUR_CLIENT_ID.apps.googleusercontent.com</string>
+	<string>183124088625-k0giv7v21nuv7pvlkptaj5qvgi3goi02.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.YOUR_REVERSED_CLIENT_ID</string>
+	<string>com.googleusercontent.apps.183124088625-k0giv7v21nuv7pvlkptaj5qvgi3goi02</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>183124088625-3117bvufhn0btg7q5sepfqccjpq6g9li.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>YOUR_API_KEY</string>
+	<string>AIzaSyCqvwgD_re8Rnky2kRaX7O-GCnVS4Gbp4U</string>
 	<key>GCM_SENDER_ID</key>
-	<string>YOUR_SENDER_ID</string>
+	<string>183124088625</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.martfury</string>
+	<string>com.evision.iOS</string>
 	<key>PROJECT_ID</key>
-	<string>your-project-id</string>
+	<string>e-vision-panama-app</string>
 	<key>STORAGE_BUCKET</key>
-	<string>your-project-id.appspot.com</string>
+	<string>e-vision-panama-app.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +31,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:YOUR_PROJECT_NUMBER:ios:YOUR_APP_ID</string>
+	<string>1:183124088625:ios:6c80c1853fdfe301e00210</string>
+	<key>DATABASE_URL</key>
+	<string>https://e-vision-panama-app.firebaseio.com</string>
 </dict>
 </plist>

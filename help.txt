@@ -1,0 +1,443 @@
+// Language
+
+https://www.science.co.il/language/Codes.php
+
+// Find android keystore
+https://8gwifi.org/jks.jsp
+
+
+// JSON To dart
+https://javiercbk.github.io/json_to_dart/
+
+
+// Youtut
+https://youtube.com/playlist?list=PLQrn8asEsczrgB06s8apKMXfKpqWRhF49
+
+Part-39
+
+time: Part-36(Google Map)
+
+time: part-11 (Google Signin Firebase)
+
+// Firebase Connect android
+SHA1 Key-> cd android && ./gradlew signingreport
+
+// Google Signin Firebase
+https://youtu.be/jddB0lVNT_8 (Very Useful IOS & Android)
+https://youtu.be/hgRg9RFvNJQ
+https://youtu.be/1k-gITZA9CI
+
+// AAP
+https://stackoverflow.com/questions/65640066/flutter-building-appbundle-in-release-mode
+
+// APK
+https://stackoverflow.com/questions/49695393/how-to-build-apk-create-old-version-app-in-flutter
+
+
+// Process to deploy stores
+flutter clean
+flutter pub get
+cd ios && pod install && cd ..
+
+// Flutter APK && AAP File Build
+cd android && ./gradlew clean && cd ..
+
+flutter build apk --no-tree-shake-icons
+
+
+
+// For APK
+cd android && ./gradlew app:assembleRelease && cd ..
+
+flutter build apk
+
+
+// For AAB
+cd android && ./gradlew bundleRelease && cd ..
+
+flutter build appbundle
+
+// Firebase analytics test cli android
+https://youtu.be/SEcEEVS2ZQo?si=H9nIi3Ln_m61Qy6g
+https://youtu.be/prXjOXaFffs?si=ycQIl3Kr5Bu596-s
+https://youtu.be/doE_tg_2BQA?si=4X-mxGjKSpna49Ch
+https://youtu.be/hMUO8Vz-z0E?si=K30aKsSATxegDh9- (IOS)
+https://stackoverflow.com/questions/43109486/turning-firebase-analytics-on-on-xcode (IOS)
+https://firebase.google.com/docs/reference/ios/firebasecore/api/reference/Classes/FIRApp(IOS)
+Enable debug mode by passing the -FIRDebugEnabled argument 
+to the application. You can add this argument 
+in the application’s Xcode scheme. When debug mode 
+is enabled via -FIRDebugEnabled, further executions 
+of the application will also be in debug mode. 
+In order to return to default mode, 
+you must explicitly disable the debug mode with the
+ application argument -FIRDebugDisabled. (during deploy) -FIRAnalyticsDebugEnabled
+
+
+
+adb shell setprop debug.firebase.analytics.app com.example.myapp
+
+
+/// Media Query Function
+https://medium.com/tagmalogic/widgets-sizes-relative-to-screen-size-in-flutter-using-mediaquery-3f283afc64d6
+
+// Check platform Platform IOS or Other (For Responsive)
+https://stackoverflow.com/questions/45924474/how-do-you-detect-the-host-platform-from-dart-code
+https://flutterigniter.com/detect-platform-ios-android/
+https://www.flutterbeads.com/how-to-check-platform-in-flutter-the-right-way/
+
+
+
+
+// Flutter Firebase setup
+https://youtu.be/hgRg9RFvNJQ
+
+// To generate SHA-Key for Android firebase
+cd android -> ./gradlew signingReport -> enter
+
+
+// Flutter Bottom Sheet
+https://medium.flutterdevs.com/modal-bottom-sheet-in-flutter-dae05debbed2
+
+
+// Doc
+#  You Tutorial
+https://youtube.com/playlist?list=PL_Wj0DgxTlJeLFYfRBfpFveEd9cQfIpDx
+
+
+# New Flutter Buttons
+https://docs.flutter.dev/release/breaking-changes/buttons
+
+# Flutter Cli
+https://docs.flutter.dev/reference/flutter-cli
+
+# JSON- Type Converter
+https://app.quicktype.io/
+
+https://jsonformatter.org/json-to-typescript
+
+#  API TAKEN FROM 
+https://tq-notes-api-jkrgrdggbq-el.a.run.app/swagger/index.html
+
+# To get mock data from service
+https://pub.dev/packages/get_it
+
+# To get Http Request API
+https://pub.dev/packages/http
+
+# Flutter Dev-Tools Open (ctrl+p)
+https://docs.flutter.dev/development/tools/devtools/vscode
+
+# Validation
+https://blog.logrocket.com/flutter-form-validation-complete-guide/
+
+https://codewithandrea.com/articles/flutter-text-field-form-validation/
+
+https://stackoverflow.com/questions/53424916/textfield-validation-in-flutter
+
+https://codesearchonline.com/flutter-form-textfield-validation/
+
+https://www.topcoder.com/thrive/articles/form-validation-in-flutter
+
+https://www.fluttercampus.com/guide/91/how-to-validate-form-textfield-values-flutter/
+
+
+# Flutter Cleaner
+https://stackoverflow.com/questions/64443888/flutter-cocoapodss-specs-repository-is-too-out-of-date-to-satisfy-dependencies
+
+https://stackoverflow.com/questions/56055142/cocoapods-could-not-find-compatible-versions-for-pod-firebase-coreonly
+
+
+# Infinite loop fetch list
+https://www.kindacode.com/article/flutter-listview-pagination-load-more/
+
+# button 
+https://www.flutterbeads.com/button-with-icon-and-text-flutter/
+https://codewithandrea.com/tips/elevated-button-style-flutter/
+
+
+
+// Bug Fix
+// Flutter Quill
+https://pub.dev/packages/flutter_quill/install
+
+
+// Issue Fixed
+Build fail on latest version of FlutterError: The non-abstract class 'RawEditorState' is missing implementations for these members
+$ flutter pub upgrade --major-versions
+$ dart fix --apply
+
+
+flutter: Error: The non-abstract class 'RenderParagraphX' is missing implementations for these members, caused by sliding_up_panel-1.0.2
+https://stackoverflow.com/questions/63938216/flutter-error-the-non-abstract-class-renderparagraphx-is-missing-implementat
+
+
+I can build again :-D
+
+this is what I have done, in case some else experiences this problem:
+
+flutter channel stable
+flutter upgrade
+flutter clean
+
+
+//  Flutter-Quill editor not working inside a scrollable form
+https://stackoverflow.com/questions/68351418/flutter-quill-editor-not-working-inside-a-scrollable-form
+
+
+
+// Demo app
+https://protocoderspoint.com/flutter-quill-text-editor-text-editing-toolbar/
+
+https://youtu.be/Db09ZScHutQ
+https://youtu.be/e7XF37jVVLw
+
+
+
+// App Icon generator and App Name (Flutter)
+https://appicon.co/
+https://easyappicon.com/(used)
+t.ly/5gSr
+
+// follow --> https://youtu.be/x1fCROXiSks
+
+
+// For firebase development site
+https://firebase.flutter.dev/docs/overview
+
+
+
+// new flutter good package
+https://pub.dev/packages/external_app_launcher
+
+https://pub.dev/packages/velocity_x
+
+
+
+// Create keystrore file android
+
+https://stackoverflow.com/questions/3997748/how-can-i-create-a-keystore
+
+
+
+
+Login Credentials : 
+
+sukanta.mondal197@gmail.com
+12345678
+
+maxwill@yopmail.com
+123456789
+
+https://www.evisionstore.com/profile
+https://www.evisionstore.com/checkout
+
+
+// Device IP Address
+
+https://stackoverflow.com/questions/52411168/how-to-get-device-ip-in-dart-flutter
+
+
+https://api.evisionstore.com/v1/place-order
+https://api.evisionstore.com/v1/payment/response
+https://api.evisionstore.com/v1/clave-deposit
+https://api.evisionstore.com/v1/clave-deposit-response
+https://api.evisionstore.com/v1/yappy/payment-success
+https://api.evisionstore.com/v1/yappy/payment-failure
+
+// mail, sms, call launcher
+https://youtu.be/S5pBcTlMy_M?si=Jo3GPbCwcwbeMfqO
+
+https://pub.dev/packages/accordion
+
+
+// Push Notification
+https://youtu.be/Hg1ZJjWzRxs?si=o3MOS_FGRJlJ-9_X
+
+
+
+// App Links & Deep links Generation process Android
+https://youtube.com/playlist?list=PL7nW441lfAVJnAcxfBLDVWxW5NtsXvjZh&si=PdAwepEbeLaJlpWq
+
+https://youtu.be/FjCfIeE1-dU?si=zxP3bqi9tEgRE2UP (Imp)
+
+https://youtu.be/Lf5fOm5em8Q?si=DflvtJSk6_q5JLSA
+
+
+https://youtu.be/lq-58j5BhvE?si=fPK0dkNdnEk3yx7-
+
+https://youtu.be/lq-58j5BhvE?si=r5Ec_Dc6OTZAess8
+
+https://youtu.be/FjCfIeE1-dU?si=EdYxYwuHhv7it829
+
+https://developers.google.com/digital-asset-links/tools/generator
+https://developer.android.com/training/app-links/verify-android-applinks#web-assoc
+
+
+https://developers.google.com/digital-asset-links/v1/create-statement
+
+// Go to the App signing get the assetlink.json data
+https://youtu.be/FjCfIeE1-dU?si=u9b_liAky96b7GaO
+
+
+// Top are helpful
+
+// IOS Deep links test
+https://youtu.be/ygOlHuwUAG4?si=lQrj1ADDQqwus2dQ
+
+xcrun simctl openurl booted www.evisionstore.com:
+
+// URl test Demo
+
+https://www.evisionstore.com/producto/SC382
+
+// tester
+
+adb shell am start -a android.intent.action.VIEW \
+-c android.intent.category.BROWSABLE \
+-d "https://www.evisionstore.com/producto/SC382"
+
+
+
+// Android App link Setup process
+
+MainActivity.kt need to add the below codes and other will available in the code
+
+// Part 1 if
+
+package com.example.myapp
+
+import android.content.Intent
+import android.os.Bundle
+import io.flutter.embedding.android.FlutterActivity
+import io.flutter.embedding.engine.FlutterEngine
+import io.flutter.plugin.common.MethodChannel
+
+class MainActivity : FlutterActivity() {
+    private val CHANNEL = "app.channel.shared.data"
+
+    override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
+        super.configureFlutterEngine(flutterEngine)
+        MethodChannel(flutterEngine.dartExecutor.binaryMessenger, CHANNEL).setMethodCallHandler { call, result ->
+            if (call.method == "getSharedData") {
+                val intent: Intent = intent
+                val data: String? = intent.dataString
+                result.success(data)
+            } else {
+                result.notImplemented()
+            }
+        }
+    }
+}
+
+// Part If needed
+package com.evision
+
+import io.flutter.embedding.android.FlutterActivity
+
+import android.content.Intent
+import android.os.Bundle
+import io.flutter.embedding.engine.FlutterEngine
+import io.flutter.plugin.common.MethodChannel
+
+class MainActivity : FlutterActivity() {
+
+    private val CHANNEL = "app.channel.shared.data"
+
+    override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
+        super.configureFlutterEngine(flutterEngine)
+        MethodChannel(flutterEngine.dartExecutor.binaryMessenger, CHANNEL).setMethodCallHandler { call, result ->
+            if (call.method == "getSharedData") {
+                val intentData: String? = intent?.dataString
+
+                // Clear the intent data after use
+                intent?.data = null
+
+                result.success(intentData)
+            } else {
+                result.notImplemented()
+            }
+        }
+    }
+
+    override fun onNewIntent(intent: Intent) {
+        super.onNewIntent(intent)
+        this.intent = intent
+        val data = intent.dataString
+
+        // Pass the deep link to Flutter via the MethodChannel
+        val engine = flutterEngine ?: return // Handle null safety for `flutterEngine`
+        MethodChannel(engine.dartExecutor.binaryMessenger, CHANNEL)
+            .invokeMethod("getSharedData", data)
+    }
+}
+
+
+// For IOS Deep Link AppDeligate.swift
+
+// Part 1
+
+import UIKit
+import Flutter
+
+@UIApplicationMain
+@objc class AppDelegate: FlutterAppDelegate {
+    override func application(
+        _ application: UIApplication,
+        continue userActivity: NSUserActivity,
+        restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void
+    ) -> Bool {
+        if let url = userActivity.webpageURL {
+            let flutterChannel = FlutterMethodChannel(name: "app.channel.shared.data",
+                                                       binaryMessenger: window?.rootViewController as! FlutterBinaryMessenger)
+            flutterChannel.invokeMethod("getSharedData", arguments: url.absoluteString)
+        }
+        return super.application(application, continue: userActivity, restorationHandler: restorationHandler)
+    }
+}
+
+
+// Part 2
+import UIKit
+import Flutter
+
+@UIApplicationMain
+@objc class AppDelegate: FlutterAppDelegate {
+    override func application(
+        _ application: UIApplication,
+        continue userActivity: NSUserActivity,
+        restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void
+    ) -> Bool {
+        if let url = userActivity.webpageURL {
+            print("Deep Link URL: \(url.absoluteString)")
+            
+            // Pass the URL to Flutter via MethodChannel
+            let methodChannel = FlutterMethodChannel(
+                name: "app.channel.shared.data",
+                binaryMessenger: window?.rootViewController as! FlutterBinaryMessenger
+            )
+            methodChannel.invokeMethod("getSharedData", arguments: url.absoluteString)
+        }
+        return super.application(application, continue: userActivity, restorationHandler: restorationHandler)
+    }
+}
+
+
+
+
+1. Add Associated Domains
+Step 1.1: Enable Associated Domains Capability
+Open your iOS project in Xcode:
+bash
+Copy
+Edit
+open ios/Runner.xcworkspace
+Go to Signing & Capabilities > + Capability > Select Associated Domains.
+Add your domain to the associated domains list in the following format:
+makefile
+Copy
+Edit
+applinks:www.evisionstore.com
+
+
+

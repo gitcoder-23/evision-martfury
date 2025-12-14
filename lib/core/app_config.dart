@@ -4,7 +4,7 @@ class AppConfig {
   static String get apiBaseUrl =>
       dotenv.env['API_BASE_URL'] ?? 'https://ecommerce-api.botble.com';
   static String get apiKey => dotenv.env['API_KEY'] ?? '1234567890';
-  static String appName = dotenv.env['APP_NAME'] ?? 'MartFury';
+  static String appName = dotenv.env['APP_NAME'] ?? 'Evision';
   static String appEnv = dotenv.env['APP_ENV'] ?? 'development';
   static String testEmail = dotenv.env['TEST_EMAIL'] ?? 'test@example.com';
   static String testPassword = dotenv.env['TEST_PASSWORD'] ?? 'password123';
@@ -25,21 +25,21 @@ class AppConfig {
       dotenv.env['DEFAULT_LANGUAGE']?.toLowerCase() ?? 'en';
   static String get defaultLanguageDirection =>
       dotenv.env['DEFAULT_LANGUAGE_DIRECTION']?.toLowerCase() ?? 'ltr';
-  
+
   // Theme Configuration
   static String get defaultThemeMode =>
       dotenv.env['DEFAULT_THEME_MODE']?.toLowerCase() ?? 'system';
 
   // RTL language mapping
   static const Map<String, bool> _rtlLanguages = {
-    'ar': true,  // Arabic
-    'he': true,  // Hebrew
-    'fa': true,  // Persian/Farsi
-    'ur': true,  // Urdu
-    'ku': true,  // Kurdish
-    'ps': true,  // Pashto
-    'sd': true,  // Sindhi
-    'yi': true,  // Yiddish
+    'ar': true, // Arabic
+    'he': true, // Hebrew
+    'fa': true, // Persian/Farsi
+    'ur': true, // Urdu
+    'ku': true, // Kurdish
+    'ps': true, // Pashto
+    'sd': true, // Sindhi
+    'yi': true, // Yiddish
   };
 
   // Check if a language code is RTL

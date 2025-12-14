@@ -1,0 +1,6 @@
+// pending task
+1> App links
+
+// config
+lib/core/app_config.dart
+env
