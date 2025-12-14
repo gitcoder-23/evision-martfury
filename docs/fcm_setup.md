@@ -48,7 +48,7 @@ The Android configuration is already complete! The following has been set up:
 
 **You only need to:**
 1. Add your `google-services.json` file to `android/app/`
-2. Update the package name if different from `com.example.martfury`
+2. Update the package name if different from `com.evision`
 
 ### iOS Setup
 The iOS configuration is already complete! The following has been set up:
